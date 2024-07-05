@@ -27,3 +27,9 @@ The Jira Ticket Dashboard is a Python-based project aimed at connecting to the J
   - `Dash` by Plotly for creating the web dashboard
 - **Jira API**: Jira REST API for data retrieval
 - **Authentication**: OAuth or Basic Authentication
+
+## Output
+| | Dashboard | |
+|:------:|:------:|:------:|
+| [BI Software 1](http://#) | [BI Software 2](http://#) | [BI Software 3](http://#) |
+| | | |
