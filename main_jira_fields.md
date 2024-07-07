@@ -1,0 +1,38 @@
+# Main exctractable fielda
+- `issue.id`
+- `issue.self`
+- `issue.fields.project`
+- `issue.fields.summary`
+- `issue.fields.issuetype`
+- `issue.fields.status`
+- `issue.fields.priority`
+- `issue.fields.resolution`
+- `issue.fields.assignee`
+- `issue.fields.reporter`
+- `issue.fields.creator`
+- `issue.fields.description`
+- `issue.fields.environment`
+- `issue.fields.labels`
+- `issue.fields.components`
+- `issue.fields.comment`
+- `issue.fields.worklog`
+- `issue.fields.timetracking`
+- `issue.fields.attachment`
+- `issue.fields.fixVersions`
+- `issue.fields.versions`
+- `issue.fields.duedate`
+- `issue.fields.created`
+- `issue.fields.updated`
+- `issue.fields.resolutiondate`
+- `issue.fields.issuelinks`
+- `issue.fields.subtasks`
+- `issue.fields.votes`
+- `issue.fields.watches`
+- `issue.fields.security`
+- `issue.fields.customfield_XXXXX`, at the moment, what I found while inspecting Jira tickets are these custom fields (this part depends on the fields created in your custom project on Jira):
+  - `issue.fields.customfield_11897` referred to **Tool**
+  - `issue.fields.customfield_11896` referred to **Area**
+  - `issue.fields.customfield_10007` referred to **Sprint**
+  - `issue.fields.customfield_11898` referred to **Category** (*it seems not working*)
+  - `#issue.fields.customfield_11930` referred to **custom_create_date** (*it seems not working*)
+  - `#issue.fields.customfield_11931` referred to **custom_end_date** (*it seems not working*)
