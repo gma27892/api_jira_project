@@ -1,6 +1,6 @@
 # Jira project
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Jira_%28Software%29_logo.svg" width="500" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Jira_%28Software%29_logo.svg" width="500" align="center"/>
 
 ## Project Description
 The Jira Ticket Dashboard is a Python-based project aimed at connecting to the Jira API to download all the tickets from a specified Jira project and display the data in an interactive dashboard. This dashboard will be built using web technologies and can be hosted independently, providing an intuitive interface for users to view and analyze Jira tickets without accessing the Jira site directly.
